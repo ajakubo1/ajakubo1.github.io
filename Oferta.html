@@ -26,13 +26,12 @@
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
   <script type="text/javascript">
-    $(document).ready(function() {
-      $.getScript("https://twojpsycholog.pl/static/widget/static/js/twoj-psycholog-widget.js");
-    });
-  </script>
-
-
-  <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
+      setTimeout(function() {
+        var tag = document.createElement("script");
+        tag.src = "https://twojpsycholog.pl/static/widget/static/js/twoj-psycholog-widget.js";
+        document.getElementsByTagName("head")[0].appendChild(tag);
+      }, 500);
+  </script><meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
   <body data-path-to-root="./" data-include-products="false" class="u-body u-xl-mode" data-lang="pl"><header class="u-clearfix u-header u-header" id="sec-8678"><div class="u-clearfix u-sheet u-sheet-1">
         <a href="#" class="u-image u-logo u-image-1" data-image-width="4096" data-image-height="2329">
           <img src="images/Przezroczysty.svg" class="u-logo-image u-logo-image-1">

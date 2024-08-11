@@ -169,16 +169,17 @@
     min-height: 395px;
   }
 }.u-section-2 .u-sheet-1 {
-  min-height: 400px;
+  min-height: 77px;
 }
 
 .u-section-2 .u-custom-html-1 {
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 .u-section-2 .u-custom-html-2 {
   margin-top: 30px;
-  margin-bottom: 0;
+  margin-bottom: -263px;
   height: auto;
-  min-height: 370px;
+  min-height: 47px;
 }
